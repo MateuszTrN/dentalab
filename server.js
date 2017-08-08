@@ -9,7 +9,8 @@ app.use(async ctx => {
     else await send(ctx, ctx.path);
 });
 
+var port = process.env.PORT || 5000;
 
-app.listen(5000);
+app.listen(port);
 
-console.log('App listening at :5000')
+console.log('App listening on port: ', port);
