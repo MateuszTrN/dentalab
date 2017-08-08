@@ -2,6 +2,9 @@
   "name": "creative",
   "title": "Creative",
   "version": "3.3.7+1",
+  "engines": {
+    "node": "5.2.0"
+  },
   "homepage": "http://startbootstrap.com/template-overviews/creative",
   "author": "Start Bootstrap",
   "license": {
