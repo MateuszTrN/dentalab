@@ -429,3 +429,7 @@ body {
 .service-thumb:hover {
   opacity: 1;
 }
+.service-box > ul {
+  text-align: left;
+  list-style: 'none';
+}

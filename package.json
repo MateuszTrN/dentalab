@@ -35,5 +35,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-send": "^4.1.0"
   }
 }
