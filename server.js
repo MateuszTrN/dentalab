@@ -1,9 +1,7 @@
-var koa = require('koa');
-var send = require('koa-send');
-var serve = require('koa-static');
-var app = new koa();
+var express = require('express');
+var app = new express();
 
-app.use(serve('.'));
+app.use(express.static('.'))
 
 var port = process.env.PORT || 5000;
 
