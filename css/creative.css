@@ -105,6 +105,11 @@ aside {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+@media (max-width: 767px) {
+  .navbar-default .navbar-brand {
+    font-size: 12px;
+  }
+}
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -131,7 +136,7 @@ aside {
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #5d8aa8;
-    font-size: 13px;
+    font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
